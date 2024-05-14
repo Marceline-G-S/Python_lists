@@ -14,6 +14,7 @@ numbers_1_to_10 = range(1, 11)
 # Iterate from 1 to 10
 for number in numbers_1_to_10:
     the_numbers_match = False
+    
     for my_random in my_randoms:
         if (my_random == number):
             the_numbers_match = True
